@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="appName">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="LoginPage">
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="prompt">
+        <item name="android:background">@drawable/prompt_shape</item>
+        <item name="android:textColorHint">@color/primary_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="prompt2">
+        <item name="android:background">@drawable/prompt_shape2</item>
+        <item name="android:textColorHint">@color/primary_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="button_check">
+        <item name="android:layout_marginTop">55dp</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="info">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/secondary_color</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="bg_home">
+        <item name="android:background">@drawable/bg_home</item>
+        <item name="android:paddingStart">25dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingEnd">25dp</item>
+        <item name="android:paddingBottom">23dp</item>
+    </style>
+
+    <style name="bg_home2">
+        <item name="android:background">@drawable/bg_home</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="companyName">
+        <item name="android:background">@drawable/bg_company_name</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:paddingEnd">7dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="hi">
+        <item name="android:drawableEnd">@drawable/wave</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="nameUser">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="calendar">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="calendar2">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="pilihPresensi">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">21dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="pilihanPresensi">
+        <item name="android:lineSpacingMultiplier">0.7</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="cv_home1">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <style name="cv_home2">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <style name="cv_home3">
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <style name="cv_home4">
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <style name="bottomNavbarText">
+        <item name="android:textColor">@color/half_black</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="topNavbarText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="success">
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="time">
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="time2">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="timeHistory">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="HistoryImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="HistoryImageView.">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <style name="cv_row">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="rowText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="rowDate">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="rowMonth">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="ProfileImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="profileElements">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/quarterhalf_black</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="profileFillElements">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="Widget.Theme.CatatPresensi.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+
+
+</resources>

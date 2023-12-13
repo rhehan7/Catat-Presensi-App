@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rowPageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/cv_row">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/row_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_row"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                style="@style/HistoryImageView."
+                app:shapeAppearanceOverlay="@style/HistoryImageView"
+                app:srcCompat="@drawable/profile_image" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_rowJp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text=""
+                style="@style/rowText" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_rowTd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=":"
+                style="@style/rowText" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_rowWp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:text=""
+                style="@style/rowText" />
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/row_date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rowdate"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginStart="15dp"
+                android:paddingBottom="3dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:orientation="vertical"
+                android:gravity="center">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_rowDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/rowDate"
+                    android:text="" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_rowMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/rowMonth"
+                    android:text="" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color2"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_log"
+        style="@style/LoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/prompt_kp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        style="@style/prompt"
+        android:hint="@string/prompt1"
+        android:inputType="text"
+        android:drawableStart="@drawable/key"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_log"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/prompt_ni"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        style="@style/prompt"
+        android:hint="@string/prompt2"
+        android:inputType="text"
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt_kp"
+        app:layout_constraintVertical_bias="0.030" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/prompt_pin"
+        style="@style/prompt"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/padlock"
+        android:drawablePadding="10dp"
+        android:hint="@string/prompt3"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt_ni"
+        app:layout_constraintVertical_bias="0.030" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_log"
+        style="@style/button"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="@string/masuk"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prompt_pin"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_log"
+        app:layout_constraintVertical_bias="0.859" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

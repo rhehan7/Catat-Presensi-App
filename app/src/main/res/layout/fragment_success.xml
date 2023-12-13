@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    android:background="@color/primary_color2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SuccessActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/check"
+        android:text="@string/success1"
+        style="@style/success"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/jenisPresensi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/masuk"
+        style="@style/success"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        style="@style/time"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time2"
+        style="@style/time2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_check"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/oke"
+        android:textAllCaps="false"
+        style="@style/button_check" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

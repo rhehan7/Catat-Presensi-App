@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color2"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        style="@style/bg_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/company_name"
+            style="@style/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/namaPt" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hi"
+            style="@style/hi"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/username_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            style="@style/nameUser"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/calendar_w" />
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/date_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/calendar"
+                    android:text="Selasa, 25 januari"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/year_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/calendar"
+                    android:text="2023"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih"
+        style="@style/pilihPresensi"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_masuk"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:backgroundTint="@color/primary_color"
+                style="@style/cv_home1">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="15dp"
+                    android:drawableTop="@drawable/enter"
+                    android:text="@string/masuk"
+                    style="@style/pilihanPresensi"
+                    android:gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_pulang"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:backgroundTint="@color/secondary_color"
+                style="@style/cv_home2">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="15dp"
+                    android:drawableTop="@drawable/exit"
+                    android:text="@string/pulang"
+                    style="@style/pilihanPresensi"
+                    android:gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_mulaiLembur"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:backgroundTint="@color/third_color"
+                style="@style/cv_home3">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/overtime"
+                    android:text="@string/lembur1"
+                    style="@style/pilihanPresensi"
+                    android:gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_selesaiLembur"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:backgroundTint="@color/fourth_color"
+                style="@style/cv_home4">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp"
+                    android:drawableTop="@drawable/overtimefinish"
+                    android:text="@string/lembur2"
+                    style="@style/pilihanPresensi"
+                    android:gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

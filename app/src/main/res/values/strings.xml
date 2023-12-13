@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Catat Presensi</string>
+    <string name="logo_name">CATAT \nPRESENSI</string>
+    <string name="login">LogIn</string>
+    <string name="prompt1">Kode Perusahaan</string>
+    <string name="prompt2">Nomor Induk</string>
+    <string name="prompt3">Pin</string>
+    <string name="info">Lupa Password? silahkan hubungi admin perusahaan</string>
+    <string name="namaPt">PT. Aplikasi Presensi Indonesia</string>
+    <string name="hi">Hi</string>
+    <string name="username">User Aplikasi Presensi</string>
+    <string name="pilih">Pilih Presensi</string>
+    <string name="masuk">Masuk</string>
+    <string name="pulang">Pulang</string>
+    <string name="lembur1">Masuk \nLembur</string>
+    <string name="lembur2">Pulang \nLembur</string>
+    <string name="lembur3">Masuk \nlembur</string>
+    <string name="lembur4">Pulang \nlembur</string>
+    <string name="home">Presensi</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="profil">Profil</string>
+    <string name="takePict">Ambil Gambar</string>
+    <string name="success1">BERHASIL PRESENSI</string>
+    <string name="jenisPresensi">Presensi Masuk</string>
+    <string name="success2">BERHASIL \nPresensi Pulang</string>
+    <string name="success3">BERHASIL \nPresensi Mulai Lembur</string>
+    <string name="success4">BERHASIL \nPresensi Selesai Lembur</string>
+    <string name="time">Waktu Presensi :</string>
+    <string name="time2">08:00 Am</string>
+    <string name="oke">Oke</string>
+    <string name="riwayat2">Riwayat Presensi</string>
+    <string name="userProfile">Nama</string>
+    <string name="noInduk">Nomor Induk</string>
+    <string name="nomorHp">Nomor Handphone</string>
+    <string name="gantiPin">Ganti Pin</string>
+    <string name="keluar">Keluar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
