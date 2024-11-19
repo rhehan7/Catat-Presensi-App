@@ -2,6 +2,15 @@ plugins {
     id 'com.android.application'
 }
 
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream {
+        localProperties.load(it)
+    }
+}
+
 android {
     namespace 'project.catatpresensi'
     compileSdk 33
@@ -14,6 +23,13 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Ambil BASE_URL dari local.properties
+        def baseUrl = localProperties.getProperty("BASE_URL")
+        if (baseUrl == null) {
+            throw new GradleException("BASE_URL not found in local.properties")
+        }
+        buildConfigField "String", "BASE_URL", "\"${baseUrl}\""
     }
 
     buildTypes {

@@ -2,11 +2,12 @@ package project.catatpresensi.api;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
+import project.catatpresensi.BuildConfig;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    private static final String BASE_URL = "https://catatpresensi.com/api/";
+    private static final String BASE_URL = BuildConfig.BASE_URL;
     private static Retrofit retrofit;
 
     public static ApiEndpoint getClient() {
